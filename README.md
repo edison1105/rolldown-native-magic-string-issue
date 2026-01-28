@@ -14,7 +14,7 @@ pnpm run repro
 - Builds `input.js` twice with `rolldown`.
 - Plugin A (`meta.magicString`) and Plugin B (`magic-string`) apply the **same edits**:
   - `prependLeft` on two declarations.
-  - Removes two adjacent export-specifier ranges **in order** using original indices (the old patchTypes behavior).
+  - Removes two adjacent export-specifier ranges **in order** using original indices
 - Writes two outputs for direct diff:
   - `out.meta.js` (meta.magicString)
   - `out.magic.js` (magic-string)
