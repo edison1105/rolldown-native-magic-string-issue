@@ -5,7 +5,8 @@ This repro compares `meta.magicString` with `magic-string` when applying the **s
 ## Run
 
 ```bash
-node repro.js
+pnpm install
+pnpm run repro
 ```
 
 ## What it does
