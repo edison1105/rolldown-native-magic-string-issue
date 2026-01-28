@@ -1,0 +1,12 @@
+{
+  "name": "rolldown-magicstring-repro",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "magic-string": "^0.30.21",
+    "rolldown": "^1.0.0-rc.1"
+  },
+  "scripts": {
+    "repro": "node ./repro.js"
+  }
+}
